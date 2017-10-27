@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+exec docker run --rm -it \
+  -v $PWD/.lede/bin/targets:/lede/bin/targets \
+  crzidea/lede \
+  bash
